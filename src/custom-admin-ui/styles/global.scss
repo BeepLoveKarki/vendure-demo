@@ -1,0 +1,60 @@
+vdr-product-variant-detail form {
+
+    .page-block vdr-card {
+        &:nth-of-type(1), &:nth-of-type(2) {
+            display: none !important;       
+        }
+    }
+
+    vdr-custom-detail-component-host {
+        display: none !important;
+    }
+
+    vdr-card {
+        padding-bottom: 10px !important;
+    }
+}
+
+vdr-product-variant-detail .sidebar {
+    display: none !important;
+}
+
+vdr-product-detail2 .sidebar vdr-card {
+    &:nth-of-type(2) {
+        display: none !important;       
+    }
+}
+
+vdr-product-variant-list vdr-data-table-2 {
+    .clr-checkbox-wrapper, .table-footer {
+        display: none !important;
+    }
+    .filter-row {
+       display: none !important;
+    }
+    clr-icon[shape="two-way-arrows left"]{
+        display: none !important;
+    }
+}
+
+vdr-product-detail2 vdr-generate-product-variants button {
+    display: none !important;
+}
+
+vdr-product-detail2 vdr-card .clr-checkbox-wrapper {
+    display: none !important;
+}
+
+vdr-collection-detail vdr-card {
+    &:nth-of-type(3) {
+        display: none !important;       
+    }
+}
+
+a[href="/admin/catalog/products/variants"], a[href*="manage-variants"]{
+    display: none !important;
+}
+
+vdr-generate-product-variants input[formcontrolname="sku"] {
+    pointer-events: none !important;
+}
